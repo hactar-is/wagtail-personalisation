@@ -104,8 +104,11 @@ def exclude_variants(pages):
     :return: List of pages that aren't variants
     :rtype: list
     """
-    return (
+    # NOTE: This filter breaks wagtail admin
+    # TODO: Needs fixing
+    rv = (
         pages.filter(
             personalisable_canonical_metadata__canonical_page_id=F(
                 'personalisable_canonical_metadata__variant__id'))
     )
+    return pages
