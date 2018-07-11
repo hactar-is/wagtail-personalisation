@@ -1,6 +1,6 @@
 import time
 
-from django.db.models import F
+from django.db.models import F, Q
 from django.template.base import FilterExpression, kwarg_re
 from django.utils import timezone
 
@@ -104,11 +104,15 @@ def exclude_variants(pages):
     :return: List of pages that aren't variants
     :rtype: list
     """
-    # NOTE: This filter breaks wagtail admin
-    # TODO: Needs fixing
+    # rv = (
+    #     pages.filter(
+    #         personalisable_canonical_metadata__canonical_page_id=F(
+    #             'personalisable_canonical_metadata__variant__id'))
+    # )
     rv = (
         pages.filter(
-            personalisable_canonical_metadata__canonical_page_id=F(
-                'personalisable_canonical_metadata__variant__id'))
+            Q(_personalisable_page_metadata__isnull=True) |
+            Q(_personalisable_page_metadata__canonical_page__pk=F('pk'))
+        )
     )
-    return pages
+    return rv
