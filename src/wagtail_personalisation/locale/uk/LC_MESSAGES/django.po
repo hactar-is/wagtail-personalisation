@@ -1,0 +1,323 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-11 11:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/blocks.py:20
+msgid "Personalisation segment"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/blocks.py:21
+msgid "Only show this content block for users in this segment"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/config.py:8
+msgid "Wagtail Personalisation"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/models.py:29
+msgid "Enabled"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/models.py:30
+msgid "Disabled"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/models.py:42
+msgid "Should the segment persist between visits?"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/models.py:45
+msgid "Should the segment match all the rules or just one of them?"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/models.py:65
+msgid "Rules"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:51
+msgid "Abstract segmentation rule"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:72
+msgid "Starting time"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:73
+msgid "Ending time"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:83
+msgid "Time Rule"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:90
+msgid "These users visit between"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:91
+msgid "{} and {}"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:107
+msgid "Monday"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:108
+msgid "Tuesday"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:109
+msgid "Wednesday"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:110
+msgid "Thursday"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:111
+msgid "Friday"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:112
+msgid "Saturday"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:113
+msgid "Sunday"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:126
+msgid "Day Rule"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:142
+msgid "These users visit on"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:157
+msgid "Regular expression to match the referrer"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:164
+msgid "Referral Rule"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:177
+msgid "These visits originate from"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:194
+msgid "More than"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:195
+msgid "Less than"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:196
+msgid "Equal to"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:218
+msgid "Visit count Rule"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:243
+msgid "These users visited {}"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:246
+msgid "{} {} times"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:262
+msgid "The query parameter to search for"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:264
+msgid "The value of the parameter to match"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:273
+msgid "Query Rule"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:280
+msgid "These users used a URL with the query"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:281
+msgid "?{}={}"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:298
+msgid "Mobile phone"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:299
+msgid "Tablet"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:300
+msgid "Desktop"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:309
+msgid "Device Rule"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:340
+msgid "Logged in Rule"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:347
+msgid "These visitors are"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:348
+msgid "Logged in"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/rules.py:348
+msgid "Not logged in"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/base.html:28
+msgid "Switch view"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:14
+msgid "Filter"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:31
+msgid "This segment has been visited"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:32
+msgid "time"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:35
+msgid "This segment has been active for"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:36
+msgid "day"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:44
+msgid "The visitor must match"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:46
+msgid "Any rule"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:48
+msgid "All rules"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:53
+msgid "The persistence of this segment is"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:55
+msgid "This segment persists in between visits"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:55
+msgid "Persistent"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:57
+msgid "This segment is reevaluated on every visit"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:57
+msgid "Fleeting"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:77
+msgid "Enable this segment"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:79
+msgid "Disable this segment"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:81
+msgid "Configure this segment"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:89
+#, python-format
+msgid ""
+"\n"
+"                                    <a class=\"block suggestion\" href="
+"\"%(url)s\">\n"
+"                                        <span class=\"suggestive_text\">Add "
+"a new %(name)s</span>\n"
+"                                    </a>\n"
+"                                "
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/templates/modeladmin/wagtail_personalisation/segment/dashboard.html:102
+#, python-format
+msgid "Page %(current_page)s of %(num_pages)s."
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/views.py:67
+#, python-brace-format
+msgid "{visits} visits in {days} days"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/wagtail_hooks.py:106
+msgid "Variants"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/wagtail_hooks.py:111
+msgid "Create or edit a variant"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/wagtail_hooks.py:129
+msgid "Edit this variant"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/wagtail_hooks.py:136
+msgid "Create this variant"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/wagtail_hooks.py:140
+#: src/wagtail-personalisation/src/wagtail_personalisation/wagtail_hooks.py:142
+msgid "Create a new segment"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/wagtail_hooks.py:175
+msgid "Segments"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/wagtail_hooks.py:188
+msgid "Personalised Page"
+msgstr ""
+
+#: src/wagtail-personalisation/src/wagtail_personalisation/wagtail_hooks.py:201
+msgid "Variant"
+msgstr ""
