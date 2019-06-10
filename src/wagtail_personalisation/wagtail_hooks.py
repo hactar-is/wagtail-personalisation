@@ -70,10 +70,11 @@ class UserbarSegmentedLinkItem:
         self.segment = segment
 
     def render(self, request):
-        return f"""<div class="wagtail-userbar__item">
-            <a href="{request.path}?segment={self.segment.pk}"
+        return """<div class="wagtail-userbar__item">
+            <a href="{}?segment={}"
                 class="wagtail-action">
-                    Show as segment: {self.segment.name}</a></div>"""
+                    Show as segment: {}</a></div>""".format(
+            request.path, self.segment.pk, self.segment.name)
 
 
 @hooks.register('construct_wagtail_userbar')
