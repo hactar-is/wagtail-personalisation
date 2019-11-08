@@ -34,6 +34,10 @@ class PersonalisedStructBlock(blocks.StructBlock):
         adapter = get_segment_adapter(request)
         user_segments = adapter.get_segments()
 
+        unset_ids = ['', None]
+        if value['segment'] in unset_ids:
+            value['segment'] = '-1'
+
         try:
             segment_id = int(value['segment'])
         except (ValueError, TypeError):
