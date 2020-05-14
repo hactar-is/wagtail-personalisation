@@ -9,7 +9,10 @@ try:
 except Exception:
     from django.templatetags.static import static
 from django.test.client import RequestFactory
-from django.utils.lru_cache import lru_cache
+try:
+    from django.utils.lru_cache import lru_cache
+except Exception:
+    from functools import lru_cache
 from django.utils.translation import ugettext_lazy as _
 from wagtail.admin.forms import WagtailAdminModelForm
 
